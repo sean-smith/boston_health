@@ -1,2 +1,2 @@
-# fatest_neighborhood
+# fattest_neighborhood
 Computes access to nutrition clinics in very fat neighborhoods.
