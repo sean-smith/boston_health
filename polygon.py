@@ -8,7 +8,7 @@ with open('boston_censustracts.geojson') as data_file:
 	data = json.load(data_file)
 	geo = geojson.FeatureCollection(data["features"])
 
-def borough(lat, lng, path):
+def cta(lat, lng, path):
 	for feature in geo['features']:
 		multipolygon = feature["geometry"]["coordinates"]
 		is_multipolygon = feature["geometry"]["type"] == "MultiPolygon"
@@ -46,7 +46,7 @@ def test():
 	# Assuming lat = Y and long = X
 
 	print "Fenway/Kenmore (%f, %f)" % (42.348688, -71.102873)
-	print(borough(42.348688, -71.102873, 'boston_censustracts.geojson')["namelsad10"])
+	print(cta(42.348688, -71.102873, 'boston_censustracts.geojson')["namelsad10"])
 
 if __name__ == '__main__':
 	test()
