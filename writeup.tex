@@ -3,6 +3,7 @@
 \usepackage{hyperref}
 \usepackage{color}
 \usepackage{amsthm}
+\usepackage{graphicx}
 
 \title{Project Proposal} 
 \author{Sean Smith, Viviana Yee \\ \{swsmith, vivyee\}@bu.edu}
@@ -13,12 +14,12 @@
 
 
 \section{Problem Definition}
-The city of Boston maintains an open data initiative that provides datasets on lots of different city services \url{https://data.cityofboston.gov/}. We both have experience taking large amounts of data and making conclusions based on trends and correlations between different datasets. Based on Viviana's experience in Andrei Lapet's Data Mechanics Course and Sean's experience with New York City Taxi data and geographical zone information we've decided to look at Boston obesity data and locations of nutrition centers and the distance between them. Specifically we want to model MBTA transportation options from different neighborhoods (for which we?re able to calculate the obesity rate) to nutrition centers. We aim to model the distance in order to answer our hypothesis ?Do neighborhoods further from nutrition centers suffer from greater obesity rates??. 
+	The city of Boston maintains an open data initiative that provides datasets on lots of different city services \url{https://data.cityofboston.gov/}. We both have experience taking large amounts of data and making conclusions based on trends and correlations between different datasets. Based on Viviana's experience in Andrei Lapet's Data Mechanics Course and Sean's experience with New York City Taxi data and geographical zone information we've decided to look at Boston obesity data and locations of nutrition centers and the distance between them. Specifically we want to model MBTA transportation options from different neighborhoods (for which we?re able to calculate the obesity rate) to nutrition centers. We aim to model the distance in order to answer our hypothesis ?Do neighborhoods further from nutrition centers suffer from greater obesity rates??. 
  
  \section{Data Sources}
- First we needed to define the geographic areas that we'll be modeling, to do so we've downloaded the 2010 census tracts dataset. This breaks Boston up into unique tracts that each have approximately the same number of residents. Sean worked on writing a point in polygon algorithm which decides if a coordinate pair is contained in a neighborhood last semester for his Multiparty Computation Class. This algorithm can be modelled using WFF?s.
+	First we needed to define the geographic areas that we'll be modeling, to do so we've downloaded the 2010 census tracts dataset. This breaks Boston up into unique tracts that each have approximately the same number of residents. Sean worked on writing a point in polygon algorithm which decides if a coordinate pair is contained in a neighborhood last semester for his Multiparty Computation Class. This algorithm can be modeled using WFF?s.
 
-\includegraphics[height=4in]{boston_map}
+\includegraphics[height=4in]{boston_neighborhoods.png}
 
 Next, we took Obesity data from the CDC, Center for Disease Control, and Nutrition Program data from the city of Boston. We filtered these two data sets for longitude and latitude data, so it is valuable for our problem.
 
