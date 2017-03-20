@@ -26,7 +26,7 @@ for route, response in stop_responses.items():
     result[route_id] = json.dumps(stops_by_route)
 
 
-with open('programs.json', 'w') as f:
+with open('mbta.json', 'w') as f:
     json.dump(result, f)
 
 print('Finished get_nutr_prog.py')
