@@ -2,3 +2,5 @@
 *.aux
 *.log
 *.out
+z3
+.DS_Store

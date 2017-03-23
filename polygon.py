@@ -45,6 +45,9 @@ def test():
 	# 40.707438, -74.006302
 	# Assuming lat = Y and long = X
 
+	print "In the river (%f, %f)" % (-71.11227035522461, 42.3537235094212)
+	print(cta(42.34554065455048, -71.10334396362305,'boston_censustracts.geojson')["namelsad10"])
+
 	print "Fenway/Kenmore (%f, %f)" % (42.348688, -71.102873)
 	print(cta(42.348688, -71.102873, 'boston_censustracts.geojson')["namelsad10"])
 

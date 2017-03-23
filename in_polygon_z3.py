@@ -9,81 +9,69 @@ See http://erich.realtimerendering.com/ptinpoly/
 """
 
 from z3 import *
+import json
+import geojson
 
-def gencon(gr):
-    """
-    Input a graph as an adjacency list, e.g. {0:[1,2], 1:[2], 2:[1,0]}.
-    Produces solver to check if the given graph has
-    a Hamiltonian cycle. Query the solver using s.check() and if sat,
-    then s.model() spells out the cycle. Two example graphs from
-    http://en.wikipedia.org/wiki/Hamiltonian_path are tested.
-    =======================================================
-    
-    Explanation:
-    
-    Generate a list of Int vars. Constrain the first Int var ("Node 0") to be 0.
-    Pick a node i, and attempt to number all nodes reachable from i to have a
-    number one higher (mod L) than assigned to node i (use an Or constraint).
-    
-    =======================================================
-    """
-    L = len(gr)
-    cv = [Int('cv%s'%i) for i in range(L)]
-    s = Solver()
-    s.add(cv[0]==0)
-    for i in range(L):
-        s.add(Or([cv[j]==(cv[i]+1)%L for j in gr[i]]))
-    return s
 
-def examples():
-    # Example Graphs: The Dodecahedral graph from http://en.wikipedia.org/wiki/Hamiltonian_path
-    grdodec = { 0: [1, 4, 5],
-                1: [0, 7, 2],
-                2: [1, 9, 3],
-                3: [2, 11, 4],
-                4: [3, 13, 0],
-                5: [0, 14, 6],
-                6: [5, 16, 7],
-                7: [6, 8, 1],
-                8: [7, 17, 9],
-                9: [8, 10, 2],
-                10: [9, 18, 11],
-                11: [10, 3, 12],
-                12: [11, 19, 13],
-                13: [12, 14, 4],
-                14: [13, 15, 5],
-                15: [14, 16, 19],
-                16: [6, 17, 15],
-                17: [16, 8, 18],
-                18: [10, 19, 17],
-                19: [18, 12, 15] }
-    import pprint
-    pp = pprint.PrettyPrinter(indent=4)
-    pp.pprint(grdodec)
-    
-    sdodec=gencon(grdodec)
-    print(sdodec.check())
-    print(sdodec.model())
-    # =======================================================
-    # See http://en.wikipedia.org/wiki/Hamiltonian_path for the Herschel graph
-    # being the smallest possible polyhdral graph that does not have a Hamiltonian
-    # cycle.
-    #
-    grherschel = { 0: [1, 9, 10, 7],
-                   1: [0, 8, 2],
-                   2: [1, 9, 3],
-                   3: [2, 8, 4],
-                   4: [3, 9, 10, 5],
-                   5: [4, 8, 6],
-                   6: [5, 10, 7],
-                   7: [6, 8, 0],
-                   8: [1, 3, 5, 7],
-                   9: [2, 0, 4],
-                   10: [6, 4, 0] }
-    pp.pprint(grherschel)
-    sherschel=gencon(grherschel)
-    print(sherschel.check())
-    # =======================================================
+with open('boston_censustracts.geojson') as data_file:
+    data = json.load(data_file)
+    geo = geojson.FeatureCollection(data["features"])
 
-if __name__ == "__main__":
-    examples()
+def cta(lat, lng, path):
+    for feature in geo['features']:
+        multipolygon = feature["geometry"]["coordinates"]
+        is_multipolygon = feature["geometry"]["type"] == "MultiPolygon"
+        if in_polygon(lat, lng, multipolygon, is_multipolygon):
+            return feature["properties"]
+    return {'NTACode': 'Not Found', 'BoroName': 'Not Found'}
+
+
+
+def x(lnglat):
+    return lnglat[0]
+
+def y(lnglat):
+    return lnglat[1]
+
+
+def in_polygon(lat, lng, polygon, is_multipolygon):
+    for coord in polygon:
+        if is_multipolygon:
+            coord = coord[0]
+        c = False
+        j = len(coord) - 1;
+        for i in range(len(coord)):
+            y1 = y(coord[i])
+            y2 = y(coord[j])
+            x1 = x(coord[i])
+            x2 = x(coord[j])
+            s = Solver()
+            px = Real('px')
+            py = Real('py')
+
+            s.add(Or(And(py < y1, py > y2, True), And(py < y2, py > y1, True), True))
+            s.add(Or(px < x1, px < x2), True)
+            s.add(py == lat, px == lng)
+
+            if s.check() == sat:
+                c = not c
+
+            j = i
+        if c:
+            return True
+    return False
+
+
+def test():
+    # lat, long 
+    # 40.707438, -74.006302
+    # Assuming lat = Y and long = X
+
+    print "In the river (%f, %f)" % (42.34554065455048, -71.10334396362305)
+    print(cta(42.34554065455048, -71.10334396362305, 'boston_censustracts.geojson'))
+
+    print "Fenway/Kenmore (%f, %f)" % (42.348688, -71.102873)
+    print(cta(42.348688, -71.102873, 'boston_censustracts.geojson')["namelsad10"])
+
+if __name__ == '__main__':
+    test()
