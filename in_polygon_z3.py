@@ -53,11 +53,9 @@ def in_polygon(lat, lng, polygon, is_multipolygon):
             s.add(Or(px < x1, px < x2), True)
             s.add(py == lat, px == lng)
 
-            if s.check() == sat:
-                c = not c
-
             j = i
-        if c:
+
+        if s.check() == sat:
             return True
     return False
 
@@ -68,7 +66,7 @@ def test():
     # Assuming lat = Y and long = X
 
     print "In the river (%f, %f)" % (42.34554065455048, -71.10334396362305)
-    print(cta(42.34554065455048, -71.10334396362305, 'boston_censustracts.geojson'))
+    print(cta(42.34554065455048, -71.10334396362305, 'triangle.geojson'))
 
     print "Fenway/Kenmore (%f, %f)" % (42.348688, -71.102873)
     print(cta(42.348688, -71.102873, 'boston_censustracts.geojson')["namelsad10"])
