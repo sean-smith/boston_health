@@ -38,26 +38,51 @@ def in_polygon(lat, lng, polygon, is_multipolygon):
     for coord in polygon:
         if is_multipolygon:
             coord = coord[0]
-        c = False
-        j = len(coord) - 1;
-        for i in range(len(coord)):
-            y1 = y(coord[i])
-            y2 = y(coord[j])
-            x1 = x(coord[i])
-            x2 = x(coord[j])
-            s = Solver()
-            px = Real('px')
-            py = Real('py')
 
-            s.add(Or(And(py < y1, py > y2, True), And(py < y2, py > y1, True), True))
-            s.add(Or(px < x1, px < x2), True)
-            s.add(py == lat, px == lng)
+        x1 = Real('x1')
+        y1 = Real('y1')
+        x2 = x(coord[-1])
+        y2 = y(coord[-1])
+        s = Solver()
 
-            j = i
+        px = RealVal(lng)
+        py = RealVal(lat)
+
+        i = Int('i')
+        
+
+        s.add(ForAll([i], And(i < len(coord), i >= 0, True)))
+        s.add(ForAll([i, x1, y1], And(x1 = x(coord[i]), y1 = y(coord[i]), True)))
+        s.add(Or(And(py < y1, py > y2, True), And(py < y2, py > y1, True), True))
+        s.add(Or(px < x1, px < x2), True)
 
         if s.check() == sat:
             return True
     return False
+
+    # for coord in polygon:
+    #     if is_multipolygon:
+    #         coord = coord[0]
+    #     c = False
+    #     j = len(coord) - 1;
+    #     for i in range(len(coord)):
+    #         y1 = y(coord[i])
+    #         y2 = y(coord[j])
+    #         x1 = x(coord[i])
+    #         x2 = x(coord[j])
+    #         s = Solver()
+    #         px = Real('px')
+    #         py = Real('py')
+
+    #         s.add(Or(And(py < y1, py > y2, True), And(py < y2, py > y1, True), True))
+    #         s.add(Or(px < x1, px < x2), True)
+    #         s.add(py == lat, px == lng)
+
+    #         j = i
+
+    #     if s.check() == sat:
+    #         return True
+    # return False
 
 
 def test():
