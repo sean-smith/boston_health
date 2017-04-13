@@ -51,11 +51,11 @@ def in_polygon(lat, lng, polygon, is_multipolygon):
         i = Int('i')
 
         s.add(ForAll([i], And(i < len(coord), i >= 0, True)))
-        
-        for x in range(len(coord)):
-            s.add(Exists([x1, y1], And(x1 = x(coord[x]), y1 = y(coord[x]), True)))
-            s.add(Or(And(py < y1, py > y2, True), And(py < y2, py > y1, True), True))
-            s.add(Or(px < x1, px < x2), True)
+
+        # for x in range(len(coord)):
+        s.add(Exists([x1, y1], And(x1 == x(coord[i]), y1 == y(coord[i]), True)))
+        s.add(Or(And(py < y1, py > y2, True), And(py < y2, py > y1, True), True))
+        s.add(Or(px < x1, px < x2), True)
 
         if s.check() == sat:
             return True
