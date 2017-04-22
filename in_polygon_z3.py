@@ -26,7 +26,6 @@ def cta(lat, lng, path):
     return {'NTACode': 'Not Found', 'BoroName': 'Not Found'}
 
 
-
 def x(lnglat):
     return lnglat[0]
 
@@ -35,50 +34,6 @@ def y(lnglat):
 
 
 def in_polygon(lat, lng, polygon, is_multipolygon):
-    # for coord in polygon:
-    #     if is_multipolygon:
-    #         coord = coord[0]
-
-    #     # x1 = Real('x1')
-    #     # y1 = Real('y1')
-    #     j = len(coord) - 1
-        
-    #     px = RealVal(lng)
-    #     py = RealVal(lat)
-
-    #     # i = Int('i')
-
-    #     # s.add(ForAll([i], And(i < len(coord), i >= 0, True)))
-
-    #     for z in range(len(coord)):
-    #         s = Solver()
-    #         x1 = x(coord[z])
-    #         y1 = y(coord[z])
-    #         x2 = x(coord[j])
-    #         y2 = y(coord[j])
-
-    #         x_t = Real('x_t')
-    #         y_t = Real('y_t')
-    #         x_u = Real('x_u')
-    #         y_u = Real('y_u')
-    #         t = Real('t')
-    #         u = Real('u')
-
-    #         s.add(x_t == px + t)
-    #         s.add(y_t == py)
-    #         s.add(x_u == (x2 - x1) * u + x1)
-    #         s.add(x_u == (y2 - y1) * u + y2)
-    #         s.add(x_t == x_u)
-    #         s.add(y_t == y_u)
-    #         s.add(t > 0)
-    #         s.add(And(0 <= u, u <= 1))
-    #         s.add(Or(And(py < y1, y2 < py), And(py < y2, y1 < py)), True)
-    #         j = z
-
-    #     if s.check() == sat:
-    #         return True
-    # return False
-
     for coord in polygon:
         if is_multipolygon:
             coord = coord[0]
@@ -125,9 +80,23 @@ def in_polygon(lat, lng, polygon, is_multipolygon):
 
 
 def test():
-    # lat, long 
-    # 40.707438, -74.006302
-    # Assuming lat = Y and long = X
+    # with open("mbta.json", "r") as routes:
+    #     routes = json.load(routes)
+    #     for route in routes:
+    #         for stop in routes[route]['path']['direction']:
+    #             for coord in stop['stop']:
+    #                 lat = float(coord['stop_lat'])
+    #                 lng = float(coord['stop_lon'])
+    #                 name = coord['stop_name']
+    #                 start = time.time()
+    #                 print "%s (%f, %f)" % (name, lat, lng)
+    #                 result = cta(lat, lng, 'boston_censustracts.geojson')
+    #                 if 'namelsad10' in result:
+    #                     print result['namelsad10']
+    #                 else:
+    #                     print "Not in Boston!"
+    #                 stop = time.time()
+    #                 print "Took %f seconds." % (stop-start)
 
     print "Movie Theater (%f, %f)" % (42.34554065455048, -71.10334396362305)
     print(cta(42.34554065455048, -71.10334396362305, 'boston_censustracts.geojson')["namelsad10"])
@@ -135,8 +104,8 @@ def test():
     print "Park (%f, %f)" % (42.34496971794688, -71.08823776245117)
     print(cta(42.34496971794688, -71.08823776245117, 'boston_censustracts.geojson')["namelsad10"])
 
-    # print "Fenway/Kenmore (%f, %f)" % (42.348688, -71.102873)
-    # print(cta(42.348688, -71.102873, 'boston_censustracts.geojson')["namelsad10"])
+    print "Fenway/Kenmore (%f, %f)" % (42.348688, -71.102873)
+    print(cta(42.348688, -71.102873, 'boston_censustracts.geojson')["namelsad10"])
 
 if __name__ == '__main__':
     test()
