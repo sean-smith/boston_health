@@ -26,13 +26,11 @@ def cta(lat, lng, path):
             return feature["properties"]
     return {'NTACode': 'Not Found', 'BoroName': 'Not Found'}
 
-
 def x(lnglat):
     return lnglat[0]
 
 def y(lnglat):
     return lnglat[1]
-
 
 def printf(str):
     with open("test.ys", "a") as f:
@@ -59,13 +57,13 @@ def in_polygon(lat, lng, polygon, is_multipolygon):
     printf("(define px::real)")
     printf("(define py::real)")
 
+
     for coord in polygon:
         if is_multipolygon:
             coord = coord[0]
         c = False
         j = len(coord) - 1;
         for i in range(len(coord)):
-
             printf("(assert (= y1 %f))" % (y(coord[i])))
             printf("(assert (= y2 %f))" % (y(coord[j])))
 
@@ -111,7 +109,3 @@ def test():
 
 if __name__ == '__main__':
     test()
-
-
-
-
