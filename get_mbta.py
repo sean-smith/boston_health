@@ -23,10 +23,10 @@ for route, response in stop_responses.items():
     stops_by_route['mode'] = mode
     stops_by_route['path'] = json.loads(response)
 
-    result[route_id] = json.dumps(stops_by_route)
+    result[route_id] = stops_by_route
 
 
 with open('mbta.json', 'w') as f:
     json.dump(result, f)
 
-print('Finished get_nutr_prog.py')
+print('Finished get_mbta.py')
