@@ -9,7 +9,7 @@ response = urllib.request.urlopen(url).read().decode("utf-8")
 response = json.loads(response)
 result = {}
 
-routes = [ mode for mode in response['mode'] if mode['mode_name'] == 'Subway' or mode['mode_name'] == 'Bus' ]
+routes = [ mode for mode in response['mode'] if mode['mode_name'] == 'Subway' ]
 routes = [ (mode['mode_name'], route['route_id']) for mode in routes for route in mode['route'] ]
 
 stop_url = 'http://realtime.mbta.com/developer/api/v2/stopsbyroute?api_key=JRz51UahAUCXkQHxPQ40fA'
