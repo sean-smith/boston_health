@@ -1,0 +1,598 @@
+Wonderland (42.413420, -70.991648)
+Not in Boston!
+Took 24.847469 seconds.
+Revere Beach - Inbound (42.407843, -70.992533)
+Not in Boston!
+Took 24.775672 seconds.
+Beachmont - Inbound (42.397542, -70.992319)
+Not in Boston!
+Took 24.778091 seconds.
+Suffolk Downs - Inbound (42.390501, -70.997123)
+Census Tract 9815.02
+Took 19.997248 seconds.
+Orient Heights - Inbound (42.386867, -71.004736)
+Census Tract 511.01
+Took 20.949559 seconds.
+Wood Island - Inbound (42.379640, -71.022865)
+Census Tract 509.01
+Took 22.280526 seconds.
+Airport - Inbound (42.374262, -71.030395)
+Census Tract 9813
+Took 9.692744 seconds.
+Maverick - Inbound (42.369119, -71.039530)
+Census Tract 504
+Took 0.080297 seconds.
+Aquarium - Inbound (42.359784, -71.051652)
+Census Tract 303
+Took 21.426594 seconds.
+State Street - to Bowdoin (42.358978, -71.057598)
+Census Tract 303
+Took 21.499869 seconds.
+Government Center - to Bowdoin (42.359705, -71.059215)
+Census Tract 303
+Took 21.641411 seconds.
+Bowdoin (42.361365, -71.062037)
+Census Tract 303
+Took 21.470861 seconds.
+Bowdoin (42.361365, -71.062037)
+Census Tract 303
+Took 21.485801 seconds.
+Government Center - to Wonderland (42.359705, -71.059215)
+Census Tract 303
+Took 21.462512 seconds.
+State Street - to Wonderland (42.358978, -71.057598)
+Census Tract 303
+Took 21.464119 seconds.
+Aquarium - Outbound (42.359784, -71.051652)
+Census Tract 303
+Took 21.457592 seconds.
+Maverick - Outbound (42.369119, -71.039530)
+Census Tract 504
+Took 0.079785 seconds.
+Airport - Outbound (42.374262, -71.030395)
+Census Tract 9813
+Took 9.697764 seconds.
+Wood Island - Outbound (42.379640, -71.022865)
+Census Tract 509.01
+Took 22.254395 seconds.
+Orient Heights - Outbound (42.386867, -71.004736)
+Census Tract 511.01
+Took 21.019231 seconds.
+Suffolk Downs - Outbound (42.390501, -70.997123)
+Census Tract 9815.02
+Took 19.798078 seconds.
+Beachmont - Outbound (42.397542, -70.992319)
+Not in Boston!
+Took 24.322899 seconds.
+Revere Beach - Outbound (42.407843, -70.992533)
+Not in Boston!
+Took 24.377732 seconds.
+Wonderland (42.413420, -70.991648)
+Not in Boston!
+Took 24.668994 seconds.
+Ashmont - Mattapan Line Outbound (42.284652, -71.064489)
+Census Tract 1008
+Took 8.935052 seconds.
+Cedar Grove - Outbound (42.279682, -71.060432)
+Census Tract 1008
+Took 9.017463 seconds.
+Butler - Outbound (42.272343, -71.062584)
+Census Tract 1008
+Took 8.935527 seconds.
+Milton - Outbound (42.270306, -71.067673)
+Not in Boston!
+Took 24.644971 seconds.
+Central Avenue - Outbound (42.270027, -71.073334)
+Not in Boston!
+Took 24.479909 seconds.
+Valley Road - Outbound (42.268322, -71.081566)
+Not in Boston!
+Took 26.121957 seconds.
+Capen Street - Outbound (42.267712, -71.087753)
+Not in Boston!
+Took 24.493094 seconds.
+Mattapan - Outbound (42.267762, -71.092241)
+Census Tract 1010.02
+Took 0.774430 seconds.
+Mattapan - Inbound (42.267762, -71.092241)
+Census Tract 1010.02
+Took 0.772493 seconds.
+Capen Street - Inbound (42.267712, -71.087753)
+Not in Boston!
+Took 24.467770 seconds.
+Valley Road - Inbound (42.268322, -71.081566)
+Not in Boston!
+Took 24.517403 seconds.
+Central Avenue - Inbound (42.270027, -71.073334)
+Not in Boston!
+Took 24.488696 seconds.
+Milton - Inbound (42.270306, -71.067673)
+Not in Boston!
+Took 24.572408 seconds.
+Butler - Inbound (42.272343, -71.062584)
+Census Tract 1008
+Took 8.894941 seconds.
+Cedar Grove - Inbound (42.279682, -71.060432)
+Census Tract 1008
+Took 8.938185 seconds.
+Ashmont - Mattapan Line Inbound (42.284652, -71.064489)
+Census Tract 1008
+Took 8.942735 seconds.
+Lechmere - Inbound (42.370772, -71.076536)
+Not in Boston!
+Took 24.438727 seconds.
+Science Park - Inbound (42.366664, -71.067666)
+Census Tract 203.01
+Took 23.917174 seconds.
+North Station - Green Line Inbound (42.365577, -71.061290)
+Census Tract 203.03
+Took 23.624612 seconds.
+Haymarket - Green Line Inbound (42.363021, -71.058290)
+Census Tract 303
+Took 21.142897 seconds.
+Government Center - Green Line Westbound (42.359705, -71.059215)
+Census Tract 303
+Took 21.343832 seconds.
+Park Street - Green Line - E Branch Berth (42.356395, -71.062424)
+Census Tract 9817
+Took 0.924931 seconds.
+Boylston - Outbound (42.353020, -71.064590)
+Census Tract 9817
+Took 0.926398 seconds.
+Arlington - Outbound (42.351902, -71.070893)
+Census Tract 107.02
+Took 2.821162 seconds.
+Copley - Outbound (42.349974, -71.077447)
+Census Tract 107.02
+Took 2.825962 seconds.
+Prudential - Outbound (42.345570, -71.081696)
+Census Tract 106
+Took 21.327707 seconds.
+Symphony - Outbound (42.342687, -71.085056)
+Census Tract 104.04
+Took 0.038340 seconds.
+Northeastern - Outbound (42.340401, -71.088806)
+Census Tract 104.05
+Took 2.745443 seconds.
+Museum of Fine Arts - Outbound (42.337711, -71.095512)
+Census Tract 104.05
+Took 2.738614 seconds.
+Longwood Medical Area - Outbound (42.335960, -71.100052)
+Census Tract 103
+Took 21.538859 seconds.
+Brigham Circle - Outbound (42.334229, -71.104609)
+Census Tract 810.01
+Took 24.193995 seconds.
+Fenwood Road - Outbound (42.333706, -71.105728)
+Census Tract 810.01
+Took 24.178453 seconds.
+Mission Park - Outbound (42.333195, -71.109756)
+Census Tract 810.01
+Took 24.212753 seconds.
+Riverway - Outbound (42.331684, -71.111931)
+Census Tract 811
+Took 16.751549 seconds.
+Back of the Hill - Outbound (42.330139, -71.111313)
+Census Tract 811
+Took 16.591295 seconds.
+Heath Street - Outbound (42.328681, -71.110559)
+Census Tract 1207
+Took 7.720973 seconds.
+Heath Street - Inbound (42.328681, -71.110559)
+Census Tract 1207
+Took 7.692676 seconds.
+Back of the Hill - Inbound (42.330139, -71.111313)
+Census Tract 811
+Took 16.579002 seconds.
+Riverway - Inbound (42.331684, -71.111931)
+Census Tract 811
+Took 16.524434 seconds.
+Mission Park - Inbound (42.333195, -71.109756)
+Census Tract 810.01
+Took 24.158389 seconds.
+Fenwood Road - Inbound (42.333706, -71.105728)
+Census Tract 810.01
+Took 24.166086 seconds.
+Brigham Circle - Inbound (42.334229, -71.104609)
+Census Tract 810.01
+Took 24.163967 seconds.
+Longwood Medical Area - Inbound (42.335960, -71.100052)
+Census Tract 103
+Took 21.484925 seconds.
+Museum of Fine Arts - Inbound (42.337711, -71.095512)
+Census Tract 104.05
+Took 2.742016 seconds.
+Northeastern - Inbound (42.340401, -71.088806)
+Census Tract 104.05
+Took 2.737833 seconds.
+Symphony - Inbound (42.342687, -71.085056)
+Census Tract 104.04
+Took 0.038208 seconds.
+Prudential - Inbound (42.345570, -71.081696)
+Census Tract 106
+Took 21.276488 seconds.
+Copley - Inbound (42.349974, -71.077447)
+Census Tract 107.02
+Took 2.821051 seconds.
+Arlington - Inbound (42.351902, -71.070893)
+Census Tract 107.02
+Took 2.823574 seconds.
+Boylston - Inbound (42.353020, -71.064590)
+Census Tract 9817
+Took 0.926693 seconds.
+Park Street - Green Line Eastbound (42.356395, -71.062424)
+Census Tract 9817
+Took 0.921460 seconds.
+Government Center - Green Line Eastbound (42.359705, -71.059215)
+Census Tract 303
+Took 21.148415 seconds.
+Haymarket - Green Line Outbound (42.363021, -71.058290)
+Census Tract 303
+Took 21.177190 seconds.
+North Station - Green Line Outbound (42.365577, -71.061290)
+Census Tract 203.03
+Took 23.674995 seconds.
+Science Park - Outbound (42.366664, -71.067666)
+Census Tract 203.01
+Took 23.884972 seconds.
+Lechmere - Outbound (42.370772, -71.076536)
+Not in Boston!
+Took 24.684428 seconds.
+Lechmere - Inbound (42.370772, -71.076536)
+Not in Boston!
+Took 24.451508 seconds.
+Science Park - Inbound (42.366664, -71.067666)
+Census Tract 203.01
+Took 23.983338 seconds.
+North Station - Green Line Inbound (42.365577, -71.061290)
+Census Tract 203.03
+Took 24.005481 seconds.
+Haymarket - Green Line Inbound (42.363021, -71.058290)
+Census Tract 303
+Took 21.888898 seconds.
+Government Center - Green Line Westbound (42.359705, -71.059215)
+Census Tract 303
+Took 22.206132 seconds.
+Park Street - Green Line - C Branch Berth (42.356395, -71.062424)
+Census Tract 9817
+Took 0.987033 seconds.
+Boylston - Outbound (42.353020, -71.064590)
+Census Tract 9817
+Took 0.977128 seconds.
+Arlington - Outbound (42.351902, -71.070893)
+Census Tract 107.02
+Took 2.983300 seconds.
+Copley - Outbound (42.349974, -71.077447)
+Census Tract 107.02
+Took 2.988113 seconds.
+Hynes - Outbound (42.347888, -71.087903)
+Census Tract 107.01
+Took 19.637733 seconds.
+Kenmore - Outbound (42.348949, -71.095169)
+Census Tract 101.04
+Took 3.195358 seconds.
+Saint Mary Street - Outbound (42.345974, -71.107353)
+Not in Boston!
+Took 26.605552 seconds.
+Hawes Street - Outbound (42.344906, -71.111145)
+Not in Boston!
+Took 24.896186 seconds.
+Kent Street - Outbound (42.344074, -71.114197)
+Not in Boston!
+Took 24.706452 seconds.
+Saint Paul Street - Outbound (42.343327, -71.116997)
+Not in Boston!
+Took 24.840218 seconds.
+Coolidge Corner - Outbound (42.342116, -71.121263)
+Not in Boston!
+Took 25.189526 seconds.
+Summit Avenue - Outbound (42.341110, -71.125610)
+Not in Boston!
+Took 24.953443 seconds.
+Brandon Hall - Outbound (42.340023, -71.129082)
+Not in Boston!
+Took 24.830513 seconds.
+Fairbanks Street - Outbound (42.339725, -71.131073)
+Not in Boston!
+Took 24.880430 seconds.
+Washington Square - Outbound (42.339394, -71.135330)
+Not in Boston!
+Took 25.128498 seconds.
+Tappan Street - Outbound (42.338459, -71.138702)
+Not in Boston!
+Took 24.810240 seconds.
+Dean Road - Outbound (42.337807, -71.141853)
+Not in Boston!
+Took 24.780052 seconds.
+Englewood Avenue - Outbound (42.336971, -71.145660)
+Not in Boston!
+Took 24.666628 seconds.
+Cleveland Circle - Outbound (42.336142, -71.149326)
+Census Tract 5.02
+Took 22.861389 seconds.
+Cleveland Circle - Inbound (42.336142, -71.149326)
+Census Tract 5.02
+Took 22.883531 seconds.
+Englewood Avenue - Inbound (42.336971, -71.145660)
+Not in Boston!
+Took 24.457418 seconds.
+Dean Road - Inbound (42.337807, -71.141853)
+Not in Boston!
+Took 24.491666 seconds.
+Tappan Street - Inbound (42.338459, -71.138702)
+Not in Boston!
+Took 24.444888 seconds.
+Washington Square - Inbound (42.339394, -71.135330)
+Not in Boston!
+Took 24.525200 seconds.
+Fairbanks Street - Inbound (42.339725, -71.131073)
+Not in Boston!
+Took 24.600664 seconds.
+Brandon Hall - Inbound (42.340023, -71.129082)
+Not in Boston!
+Took 24.569088 seconds.
+Summit Avenue - Inbound (42.341110, -71.125610)
+Not in Boston!
+Took 24.552333 seconds.
+Coolidge Corner - Inbound (42.342116, -71.121263)
+Not in Boston!
+Took 24.601388 seconds.
+Saint Paul Street - Inbound (42.343327, -71.116997)
+Not in Boston!
+Took 24.476662 seconds.
+Kent Street - Inbound (42.344074, -71.114197)
+Not in Boston!
+Took 24.346423 seconds.
+Hawes Street - Inbound (42.344906, -71.111145)
+Not in Boston!
+Took 24.518562 seconds.
+Saint Mary Street - Inbound (42.345974, -71.107353)
+Not in Boston!
+Took 24.497005 seconds.
+Kenmore - Inbound (42.348949, -71.095169)
+Census Tract 101.04
+Took 3.081642 seconds.
+Hynes - Inbound (42.347888, -71.087903)
+Census Tract 107.01
+Took 17.085528 seconds.
+Copley - Inbound (42.349974, -71.077447)
+Census Tract 107.02
+Took 2.824742 seconds.
+Arlington - Inbound (42.351902, -71.070893)
+Census Tract 107.02
+Took 2.820414 seconds.
+Boylston - Inbound (42.353020, -71.064590)
+Census Tract 9817
+Took 0.920727 seconds.
+Park Street - Green Line Eastbound (42.356395, -71.062424)
+Census Tract 9817
+Took 0.922672 seconds.
+Government Center - Green Line Eastbound (42.359705, -71.059215)
+Census Tract 303
+Took 21.375213 seconds.
+Haymarket - Green Line Outbound (42.363021, -71.058290)
+Census Tract 303
+Took 21.191620 seconds.
+North Station - Green Line Outbound (42.365577, -71.061290)
+Census Tract 203.03
+Took 23.677894 seconds.
+Science Park - Outbound (42.366664, -71.067666)
+Census Tract 203.01
+Took 23.959246 seconds.
+Lechmere - Outbound (42.370772, -71.076536)
+Not in Boston!
+Took 24.628027 seconds.
+Oak Grove (42.436680, -71.071097)
+Not in Boston!
+Took 24.512481 seconds.
+Malden - Inbound (42.426632, -71.074110)
+Not in Boston!
+Took 24.507510 seconds.
+Wellington - Inbound (42.402370, -71.077082)
+Not in Boston!
+Took 24.440881 seconds.
+Assembly - Inbound (42.392811, -71.077257)
+Not in Boston!
+Took 24.477468 seconds.
+Sullivan Square - Inbound (42.383975, -71.076994)
+Census Tract 406
+Took 22.238261 seconds.
+Community College - Inbound (42.373622, -71.069533)
+Census Tract 406
+Took 22.241787 seconds.
+North Station - Orange Line Inbound (42.365577, -71.061290)
+Census Tract 203.03
+Took 23.736406 seconds.
+Haymarket - Orange Line Inbound (42.363021, -71.058290)
+Census Tract 303
+Took 21.157775 seconds.
+State Street - to Forest Hills (42.358978, -71.057598)
+Census Tract 303
+Took 21.627744 seconds.
+Downtown Crossing - to Forest Hills (42.355518, -71.060225)
+Census Tract 701.01
+Took 19.318739 seconds.
+Chinatown - Outbound (42.352547, -71.062752)
+Census Tract 701.01
+Took 19.274520 seconds.
+Tufts Medical Center - Outbound (42.349662, -71.063917)
+Census Tract 702
+Took 19.158244 seconds.
+Back Bay - Outbound (42.347350, -71.075727)
+Census Tract 707
+Took 18.470519 seconds.
+Massachusetts Avenue - Outbound (42.341512, -71.083423)
+Census Tract 104.05
+Took 2.793374 seconds.
+Ruggles - Outbound (42.336377, -71.088961)
+Census Tract 806.01
+Took 17.686459 seconds.
+Roxbury Crossing - Outbound (42.331397, -71.095451)
+Census Tract 814
+Took 16.647045 seconds.
+Jackson Square - Outbound (42.323132, -71.099592)
+Census Tract 813
+Took 16.479883 seconds.
+Stony Brook - Outbound (42.317062, -71.104248)
+Census Tract 1205
+Took 7.966668 seconds.
+Green Street - Outbound (42.310525, -71.107414)
+Census Tract 1204
+Took 7.074630 seconds.
+Forest Hills Orange Line (42.300523, -71.113686)
+Census Tract 1101.03
+Took 17.158690 seconds.
+Forest Hills Orange Line (42.300523, -71.113686)
+Census Tract 1101.03
+Took 17.142101 seconds.
+Green Street - Inbound (42.310525, -71.107414)
+Census Tract 1204
+Took 7.109068 seconds.
+Stony Brook - Inbound (42.317062, -71.104248)
+Census Tract 1205
+Took 7.944140 seconds.
+Jackson Square - Inbound (42.323132, -71.099592)
+Census Tract 813
+Took 16.424931 seconds.
+Roxbury Crossing - Inbound (42.331397, -71.095451)
+Census Tract 814
+Took 16.110523 seconds.
+Ruggles - Inbound (42.336377, -71.088961)
+Census Tract 806.01
+Took 17.632892 seconds.
+Massachusetts Avenue - Inbound (42.341512, -71.083423)
+Census Tract 104.05
+Took 2.750636 seconds.
+Back Bay - Inbound (42.347350, -71.075727)
+Census Tract 707
+Took 18.266385 seconds.
+Tufts Medical Center - Inbound (42.349662, -71.063917)
+Census Tract 702
+Took 19.108445 seconds.
+Chinatown - Inbound (42.352547, -71.062752)
+Census Tract 701.01
+Took 19.131244 seconds.
+Downtown Crossing - to Oak Grove (42.355518, -71.060225)
+Census Tract 701.01
+Took 19.138308 seconds.
+State Street - to Oak Grove (42.358978, -71.057598)
+Census Tract 303
+Took 22.098359 seconds.
+Haymarket - Orange Line Outbound (42.363021, -71.058290)
+Census Tract 303
+Took 21.648557 seconds.
+North Station - Orange Line Outbound (42.365577, -71.061290)
+Census Tract 203.03
+Took 23.959974 seconds.
+Community College - Outbound (42.373622, -71.069533)
+Census Tract 406
+Took 22.569829 seconds.
+Sullivan Square - Outbound (42.383975, -71.076994)
+Census Tract 406
+Took 23.011971 seconds.
+Assembly - Outbound (42.392811, -71.077257)
+Not in Boston!
+Took 25.311702 seconds.
+Wellington - Outbound (42.402370, -71.077082)
+Not in Boston!
+Took 25.046413 seconds.
+Malden - Outbound (42.426632, -71.074110)
+Not in Boston!
+Took 24.842571 seconds.
+Oak Grove (42.436680, -71.071097)
+Not in Boston!
+Took 24.825361 seconds.
+Lechmere - Inbound (42.370772, -71.076536)
+Not in Boston!
+Took 24.855085 seconds.
+Science Park - Inbound (42.366664, -71.067666)
+Census Tract 203.01
+Took 24.279000 seconds.
+North Station - Green Line Inbound (42.365577, -71.061290)
+Census Tract 203.03
+Took 24.105466 seconds.
+Haymarket - Green Line Inbound (42.363021, -71.058290)
+Census Tract 303
+Took 21.668949 seconds.
+Government Center - Green Line Westbound (42.359705, -71.059215)
+Census Tract 303
+Took 21.611894 seconds.
+Park Street - Green Line - D Branch Berth (42.356395, -71.062424)
+Census Tract 9817
+Took 0.937456 seconds.
+Boylston - Outbound (42.353020, -71.064590)
+Census Tract 9817
+Took 0.938226 seconds.
+Arlington - Outbound (42.351902, -71.070893)
+Census Tract 107.02
+Took 2.870271 seconds.
+Copley - Outbound (42.349974, -71.077447)
+Census Tract 107.02
+Took 2.872580 seconds.
+Hynes - Outbound (42.347888, -71.087903)
+Census Tract 107.01
+Took 17.377368 seconds.
+Kenmore - Outbound (42.348949, -71.095169)
+Census Tract 101.04
+Took 3.125282 seconds.
+Fenway - Outbound (42.345394, -71.104187)
+Census Tract 102.04
+Took 2.978449 seconds.
+Longwood - Outbound (42.341145, -71.110451)
+Not in Boston!
+Took 24.850928 seconds.
+Brookline Village - Outbound (42.332774, -71.116296)
+Not in Boston!
+Took 24.898992 seconds.
+Brookline Hills - Outbound (42.331333, -71.126999)
+Not in Boston!
+Took 24.814084 seconds.
+Beaconsfield - Outbound (42.335846, -71.140823)
+Census Tract 809
+Took 13.761176 seconds.
+Reservoir - Outbound (42.335027, -71.148952)
+Not in Boston!
+Took 24.871685 seconds.
+Chestnut Hill - Outbound (42.326653, -71.165314)
+Not in Boston!
+Took 24.794438 seconds.
+Newton Centre - Outbound (42.329391, -71.192429)
+Not in Boston!
+Took 24.895743 seconds.
+Newton Highlands - Outbound (42.321735, -71.206116)
+Not in Boston!
+Took 31.360311 seconds.
+Eliot - Outbound (42.319023, -71.216713)
+Census Tract 819
+Took 27.754759 seconds.
+Waban - Outbound (42.325943, -71.230728)
+Not in Boston!
+Took 43.983909 seconds.
+Woodland - Outbound (42.333374, -71.244301)
+Not in Boston!
+Took 44.063176 seconds.
+Riverside - Outbound (42.337059, -71.251742)
+Not in Boston!
+Took 43.977838 seconds.
+Riverside - Inbound (42.337059, -71.251742)
+Not in Boston!
+Took 44.046485 seconds.
+Woodland - Inbound (42.333374, -71.244301)
+Not in Boston!
+Took 44.041912 seconds.
+Waban - Inbound (42.325943, -71.230728)
+Not in Boston!
+Took 50.821872 seconds.
+Eliot - Inbound (42.319023, -71.216713)
+Census Tract 819
+Took 53.858945 seconds.
+Newton Highlands - Inbound (42.321735, -71.206116)
+Not in Boston!
+Took 85.199855 seconds.
+Newton Centre - Inbound (42.329391, -71.192429)
+Not in Boston!
+Took 85.350792 seconds.
+Chestnut Hill - Inbound (42.326653, -71.165314)
+Not in Boston!
+Took 229.868703 seconds.
+Reservoir - Inbound (42.335027, -71.148952)
