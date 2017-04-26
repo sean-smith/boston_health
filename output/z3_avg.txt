@@ -1,0 +1,3 @@
+Average for point not in Boston: 298.73082880000004 seconds
+Average for point in Boston: 278.9959092162162 seconds
+Average for all points: 283.1948282765958 seconds
