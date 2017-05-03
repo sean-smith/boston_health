@@ -49,6 +49,9 @@ def in_polygon(lat, lng, polygon, is_multipolygon):
             py = Real('py')
 
             s.add(And(Or(And((py < y1), (py > y2)), And((py < y2), (py > y1))), Or((px < x1), (px < x2))))
+            
+            # s.add(Or(And(py < y1, py > y2, True), And(py < y2, py > y1, True), True))
+            # s.add(Or(px < x1, px < x2), True)
             s.add(py == lat, px == lng)
 
             j = i
