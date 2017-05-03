@@ -23,6 +23,7 @@ yices_avg.write("Average for point in Boston: " + str(sum_boston/count_boston) +
 yices_avg.write("Average for all points: " + str((sum_not + sum_boston)/(count_not + count_boston)) + " seconds")
 yices.close()
 yices_avg.close()
+print("yices_avg.txt written.")
 
 py = open('python.txt', 'r')
 lines = py.readlines()
@@ -49,6 +50,7 @@ python_avg.write("Average for point in Boston: " + str(sum_boston/count_boston) 
 python_avg.write("Average for all points: " + str((sum_not + sum_boston)/(count_not + count_boston)) + " seconds")
 py.close()
 python_avg.close()
+print("python_avg.txt written.")
 
 z3 = open('z3.txt', 'r')
 lines = z3.readlines()
@@ -75,6 +77,7 @@ z3_avg.write("Average for point in Boston: " + str(sum_boston/count_boston) + " 
 z3_avg.write("Average for all points: " + str((sum_not + sum_boston)/(count_not + count_boston)) + " seconds")
 z3.close()
 z3_avg.close()
+print("z3_avg.txt written.")
 
 
 
