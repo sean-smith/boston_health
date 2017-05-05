@@ -98,7 +98,7 @@ def test(args):
         print "(%f, %f)" % (args.lat, args.long)
         print(cta(args.lat, args.long, 'boston_censustracts.geojson')['namelsad10'])
 
-    if not args.test:
+    elif not args.test:
         with open("mbta.json", "r") as routes:
             routes = json.load(routes)
             for route in routes:
