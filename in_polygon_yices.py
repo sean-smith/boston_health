@@ -26,7 +26,7 @@ def cta(lat, lng, path):
         is_multipolygon = feature["geometry"]["type"] == "MultiPolygon"
         if in_polygon(lat, lng, multipolygon, is_multipolygon):
             return feature["properties"]
-    return {'NTACode': 'Not Found', 'BoroName': 'Not Found'}
+    return {'namelsad10': "Not in Boston!"}
 
 def x(lnglat):
     return lnglat[0]
