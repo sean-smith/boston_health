@@ -20,7 +20,10 @@ If successful you should see the version of z3 installed (4.5.0 for me). Next in
 
 	yices
 
+You should see a yices command prompt. 
+
 ## Test Run
+
 The script has been configured to take the following arguments:
 
 	python in_polygon_yices.py [--test] [--lat num] [--long num]
@@ -35,6 +38,16 @@ When run with the `--test` flag, the script will run on three lat long pairs eac
 
     print "Fenway/Kenmore (%f, %f)" % (42.348688, -71.102873)
     print(cta(42.348688, -71.102873, 'boston_censustracts.geojson')['namelsad10'])
+
+## Example:
+	
+	I can run:
+
+		python in_polygon_yices.py --lat 42.361145 --long -71.057083
+
+	And for z3:
+
+		python in_polygon_z3.py --lat 42.361145 --long -71.057083
 
 ## Real Run
 
