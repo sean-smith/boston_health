@@ -39,7 +39,7 @@ def write_to_file(str):
         f.write(str + "\n")
 
 def check():
-    bashCommand = "yices test.ys"
+    bashCommand = "/home/ubuntu/yices-2.5.2/bin/yices test.ys" 
     p = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     out, err = p.communicate()
     if "unsat" in out:
